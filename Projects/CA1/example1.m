@@ -1,0 +1,10 @@
+fs = 100;
+t = -30:1/fs:30;
+x = exp(-20.*abs(t));
+plot(t, x);
+xlabel('Horizontal axis');
+ylabel('Vertical axis');
+xlim([-2, 2]);
+ylim([0, 1]); 
+title('Example 1');
+grid on;
